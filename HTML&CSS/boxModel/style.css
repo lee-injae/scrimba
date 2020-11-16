@@ -1,0 +1,22 @@
+body {
+    background: #333;
+    color: white;
+}
+
+header {
+    background: lightblue;
+    width: 100px;
+    border: red 10px solid ;
+    border-right-width: 4px;
+    padding: 20px;
+    margin: 50px;
+}
+
+main {
+    border-bottom: solid yellow 50px ;
+    border-top: dotted green 40px;
+    border-left: solid;
+    padding-left: 20px;
+    margin: 20px 70px 30px 10px
+
+}
