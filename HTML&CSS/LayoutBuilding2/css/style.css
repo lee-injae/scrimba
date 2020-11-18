@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-size: 21px;
+
+}
+
+/* Typography */
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+/* Layout */
+
+header {
+    background-color: #588C94;
+    padding: 25px 0; 
+    color: white;
+    text-align: center;
+}
+
+.intro {
+    margin: 60px auto;
+    color: gray;
+    width: 600px;
+    text-align: center;
+}
+
+.my-skills {
+    color: white;
+    background-color: #1D3C41;
+    padding: 75px 0 ;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
