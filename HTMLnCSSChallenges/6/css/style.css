@@ -32,6 +32,24 @@ h1{
     padding: 0 20px;
 }
 
+.columns {
+    display:flex;
+}
+
+.main-content{
+    width: 65%;
+    margin-right: 5%;
+}
+
+.column-right {
+    margin-left: 25px;
+}
+
+.sidebar{
+    width: 30%;
+}
+
+
 /* h1{
     background-color: #281B2D;
     color: #fff;
