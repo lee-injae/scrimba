@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding-bottom: 20px;
 }
 
 header {
@@ -7,6 +8,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    margin-bottom: 25px;
 }
 
 h1{
@@ -14,12 +16,21 @@ h1{
     margin: 0;
 }
 
+a {
+    color: #281B2D
+}
+
+a:hover {
+    color: #fff;
+}
+
 .subheading{
     font-size: 48px;
     color: #FCD801;
     background-color: #281B2D;
-    border-bottom: solid 4px #00C54C; 
+    border-bottom: solid 5px #00C54C; 
     padding: 20px;
+    margin-top: 0
 }
 
 .white-text {
@@ -47,7 +58,17 @@ h1{
 
 .sidebar{
     width: 30%;
+    background-color: #9AE84F;
+    padding: 15px;
+    box-shadow: 10px 10px 5px green;
 }
+
+
+
+.source {
+    font-size: 12px;
+}
+
 
 
 /* h1{
