@@ -1,4 +1,18 @@
-var myHeader = document.getElementById("myHeader")
+let butt = document.getElementById("button")
+let title = document.getElementById("title")
+let counter = 0
 
-myHeader.style.background = "green"
-myHeader.style.color = "yellow"
+butt.addEventListener("click", function(){
+   
+    
+
+    // if (counter === 0) {
+    //     counter = 10
+    // } else {
+    //     counter += 5
+    // }
+
+    butt.textContent = counter
+})
+
+console.log(counter)
